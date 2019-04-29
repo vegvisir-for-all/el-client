@@ -1,0 +1,23 @@
+{
+    "name": "vegvisir/el-client",
+    "description": "EmailLabs PHP client",
+    "type": "library",
+    "require": {
+        "php": ">=7.0",
+        "guzzlehttp/guzzle": "^6.3@dev"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marek Kapusta-Ognicki",
+            "email": "marek@sigrun.eu"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "EmailLabs\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
